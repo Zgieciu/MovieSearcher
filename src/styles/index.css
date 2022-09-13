@@ -3,3 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #EEEEEE;
+  background-color: #222831;
+}
