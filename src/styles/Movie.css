@@ -1,0 +1,33 @@
+.movie {
+    margin-bottom: 70px;
+    min-height: 300px;
+    clear: both;
+}
+
+.movie img {
+    margin: 0 30px 20px 0;
+    float: left;
+}
+
+.movie h2 {
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.movie h3 {
+    padding: 5px 0;
+    font-size: 25px;
+}
+
+.movie p {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+@media (max-width: 800px) {
+
+    .movie img {
+        margin: 0;
+        float: none;
+    }
+}

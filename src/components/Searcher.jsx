@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Searcher = () => {
+import '../styles/Searcher.css';
+
+const Searcher = props => {
     return ( 
         <div className="searcher">
-            
+            <input type="text" placeholder={props.placeholder}/>
         </div>
      );
 }

@@ -1,0 +1,25 @@
+.button {
+    padding-right: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 2px solid #EEEEEE;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: #EEEEEE;
+    background-color: #222831;
+}
+
+button:hover {
+    border-color: #00ADB5;
+    color: #00ADB5;
+}
+
+@media (max-width: 800px) {
+    button {
+        width: 250px;
+        margin-top: 20px;
+    }
+}
