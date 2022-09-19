@@ -12,6 +12,7 @@ const MoviesList = () => {
                 <Movie
                     key = {movie.id}
                     title = {movie.title}
+                    titleSeries = {movie.name}
                     overview = {movie.overview}
                     rating = {movie.vote_average}
                     date = {movie.release_date}

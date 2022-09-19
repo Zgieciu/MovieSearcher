@@ -9,11 +9,12 @@ const Movie = props => {
 
     return ( 
         <div className="movie">
-            <img src={poster} alt="poster" />
-            <h2>{props.title}</h2>
-            <h3>Ocena: {props.rating}/10</h3>
-            <h3>Data premiery: {props.date}</h3>
-            <p>{props.overview}</p>  
+            {props.poster ? <img src={poster} alt="poster" /> : null}
+            {props.title ? <h2>{props.title}</h2> : null}
+            {props.titleSeries ? <h2>{props.titleSeries}</h2> : null}
+            {props.rating ? <h3>Ocena: {props.rating}/10</h3> : null}
+            {props.date ? <h3>Data premiery: {props.date}</h3> : null}
+            {props.overview ? <p>{props.overview}</p> : null} 
         </div>
      );
 }
